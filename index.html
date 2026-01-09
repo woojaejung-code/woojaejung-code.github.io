@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>늘사랑교회</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 헤더 -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">늘사랑교회</div>
+                <button class="mobile-menu-toggle" aria-label="메뉴 열기">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#home">홈</a></li>
+                    <li><a href="#worship">예배</a></li>
+                    <li><a href="#programs">프로그램</a></li>
+                    <li><a href="#ministry">섬김</a></li>
+                    <li><a href="#media">미디어</a></li>
+                    <li><a href="#about">교회소개</a></li>
+                    <li><a href="#contact">문의</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="search-toggle" aria-label="검색">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M9 17A8 8 0 1 0 9 1a8 8 0 0 0 0 16zM18 18l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </button>
+                    <a href="#login" class="btn-login">로그인</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 검색창 -->
+    <div class="search-overlay">
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="검색어를 입력해 주세요">
+            <button class="search-close">닫기</button>
+        </div>
+    </div>
+
+    <!-- 메인 히어로 섹션 -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">늘사랑교회</h1>
+            <div class="hero-mission">
+                <p class="mission-text">그러므로 믿음으로 말미암은 자는 믿음이 있는 아브라함과 함께 복을 받느니라</p>
+                <p class="mission-verse">갈라디아서 3장 9절</p>
+            </div>
+            <div class="hero-buttons">
+                <a href="#worship" class="btn btn-primary">예배 안내</a>
+                <a href="#about" class="btn btn-secondary">교회 소개</a>
+            </div>
+            <div class="hero-decoration">
+                <span class="decoration-heart">❤️</span>
+                <span class="decoration-star">⭐</span>
+                <span class="decoration-heart">❤️</span>
+            </div>
+        </div>
+        <div class="hero-slider">
+            <div class="slide active"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+        </div>
+    </section>
+
+    <!-- 빠른 메뉴 -->
+    <section class="quick-menu">
+        <div class="container">
+            <div class="quick-menu-grid">
+                <a href="#bulletin" class="quick-item">
+                    <div class="quick-icon">📋</div>
+                    <span>주보</span>
+                </a>
+                <a href="#qt" class="quick-item">
+                    <div class="quick-icon">📖</div>
+                    <span>QT</span>
+                </a>
+                <a href="#worship" class="quick-item">
+                    <div class="quick-icon">⛪</div>
+                    <span>예배안내</span>
+                </a>
+                <a href="#offering" class="quick-item">
+                    <div class="quick-icon">💝</div>
+                    <span>온라인헌금</span>
+                </a>
+                <a href="#news" class="quick-item">
+                    <div class="quick-icon">📢</div>
+                    <span>교우소식</span>
+                </a>
+                <a href="#prayer" class="quick-item">
+                    <div class="quick-icon">🙏</div>
+                    <span>중보기도</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 최신 소식 -->
+    <section class="news-section">
+        <div class="container">
+            <h2 class="section-title">새로운 소식을 만나보세요</h2>
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-date">2026.01.10</div>
+                    <h3 class="news-title">2026년 1월 10일 주보</h3>
+                    <p class="news-category">주보</p>
+                </article>
+                <article class="news-card">
+                    <div class="news-date">2026.01.09</div>
+                    <h3 class="news-title">전자기부금영수증 발급 안내</h3>
+                    <p class="news-category">만나소식</p>
+                </article>
+                <article class="news-card">
+                    <div class="news-date">2026.01.09</div>
+                    <h3 class="news-title">1인 가구를 위한 일청동산</h3>
+                    <p class="news-category">만나소식</p>
+                </article>
+                <article class="news-card">
+                    <div class="news-date">2026.01.09</div>
+                    <h3 class="news-title">하나님의 손길 - 매일만나 365</h3>
+                    <p class="news-category">QT</p>
+                </article>
+            </div>
+            <div class="text-center">
+                <a href="#news" class="btn-more">더보기</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 예배 안내 -->
+    <section class="worship-section" id="worship">
+        <div class="container">
+            <h2 class="section-title">예배 안내</h2>
+            <p class="section-subtitle">주님을 찬양하며 함께 모이는 예배 시간</p>
+            <div class="worship-grid">
+                <div class="worship-card">
+                    <div class="worship-icon">⛪</div>
+                    <h3>주일예배</h3>
+                    <div class="worship-times">
+                        <p>매주 일요일</p>
+                        <p class="time">오전 11시 30분</p>
+                        <p class="time">오후 2시</p>
+                    </div>
+                </div>
+                <div class="worship-card">
+                    <div class="worship-icon">📖</div>
+                    <h3>수요예배</h3>
+                    <div class="worship-times">
+                        <p>매주 수요일</p>
+                        <p class="time">저녁 7시 30분</p>
+                    </div>
+                </div>
+                <div class="worship-card">
+                    <div class="worship-icon">🌙</div>
+                    <h3>금요철야 예배</h3>
+                    <div class="worship-times">
+                        <p>매주 금요일</p>
+                        <p class="time">늦은 저녁 8시</p>
+                    </div>
+                </div>
+                <div class="worship-card">
+                    <div class="worship-icon">🌅</div>
+                    <h3>새벽 예배</h3>
+                    <div class="worship-times">
+                        <p>월요일 ~ 주일</p>
+                        <p class="time">새벽 5시</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- QT 섹션 -->
+    <section class="qt-section" id="qt">
+        <div class="container">
+            <div class="qt-card">
+                <div class="qt-header">
+                    <span class="qt-label">오늘의 말씀</span>
+                    <span class="qt-date">2026.01.10</span>
+                </div>
+                <div class="qt-content">
+                    <p class="qt-text">그러므로 믿음으로 말미암은 자는 믿음이 있는 아브라함과 함께 복을 받느니라</p>
+                    <p class="qt-verse">갈라디아서 3장 9절</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 설교 및 찬양 -->
+    <section class="sermon-section">
+        <div class="container">
+            <h2 class="section-title">말씀과 찬양</h2>
+            <div class="sermon-grid">
+                <div class="sermon-card">
+                    <div class="sermon-thumbnail">
+                        <div class="play-icon">▶</div>
+                    </div>
+                    <div class="sermon-info">
+                        <span class="sermon-type">설교</span>
+                        <h3 class="sermon-title">믿음으로 새롭게</h3>
+                        <p class="sermon-pastor">장영희 담임목사</p>
+                        <p class="sermon-date">2026.01.04</p>
+                    </div>
+                </div>
+                <div class="sermon-card">
+                    <div class="sermon-thumbnail">
+                        <div class="play-icon">▶</div>
+                    </div>
+                    <div class="sermon-info">
+                        <span class="sermon-type">찬양</span>
+                        <h3 class="sermon-title">늘사랑 찬양</h3>
+                        <p class="sermon-pastor">찬양팀</p>
+                        <p class="sermon-date">2026.01.04</p>
+                    </div>
+                </div>
+                <div class="sermon-card">
+                    <div class="sermon-thumbnail">
+                        <div class="play-icon">▶</div>
+                    </div>
+                    <div class="sermon-info">
+                        <span class="sermon-type">설교</span>
+                        <h3 class="sermon-title">말씀으로 새롭게</h3>
+                        <p class="sermon-pastor">장영희 담임목사</p>
+                        <p class="sermon-date">2025.12.28</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#sermons" class="btn-more">더보기</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 교회 소개 -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <h2 class="section-title">교회 소개</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="welcome-emoji">🙏</div>
+                    <h3>환영합니다</h3>
+                    <p>
+                        늘사랑교회는 2000년 1월 24일 창립 이후, 하나님의 사랑을 전하며 
+                        지역사회와 함께 성장해온 교회입니다. 대한예수교 장로회 소속으로 
+                        성경 말씀을 바탕으로 한 신앙 공동체를 이루어가고 있습니다.
+                    </p>
+                    <p>
+                        우리는 예수 그리스도의 사랑 안에서 서로를 섬기고, 함께 기도하며, 
+                        하나님의 나라를 세워가는 것을 목표로 합니다. 모든 연령대의 성도들이 
+                        함께 모여 예배하고 교제하며 성장하는 따뜻한 교회입니다.
+                    </p>
+                </div>
+                <div class="about-info">
+                    <div class="info-box">
+                        <div class="info-label">교회명</div>
+                        <div class="info-value">늘사랑교회</div>
+                    </div>
+                    <div class="info-box">
+                        <div class="info-label">창립일</div>
+                        <div class="info-value">2000년 1월 24일</div>
+                    </div>
+                    <div class="info-box">
+                        <div class="info-label">담임목사</div>
+                        <div class="info-value">장영희 목사</div>
+                    </div>
+                    <div class="info-box">
+                        <div class="info-label">교단</div>
+                        <div class="info-value">대한예수교 장로회</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 오시는 길 -->
+    <section class="location-section" id="location">
+        <div class="container">
+            <h2 class="section-title">오시는 길</h2>
+            <div class="location-content">
+                <div class="location-info">
+                    <div class="location-item">
+                        <h3>주소</h3>
+                        <p>경기도 고양시 일산서구 송포로 113번길 63-28 (대화동)</p>
+                    </div>
+                    <div class="location-item">
+                        <h3>대중교통 이용</h3>
+                        <p><strong>대화역</strong> 4, 5번 출구 버스정류장</p>
+                        <p>61번, 56번, 1000번 버스 이용</p>
+                    </div>
+                    <div class="location-item">
+                        <h3>문의</h3>
+                        <p>전화: 031)812-6633</p>
+                    </div>
+                </div>
+                <div class="location-map">
+                    <iframe 
+                        src="https://www.google.com/maps?q=경기도+고양시+일산서구+송포로+113번길+63-28&output=embed&hl=ko&zoom=16" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 처음 오셨나요? -->
+    <section class="newcomer-section">
+        <div class="container">
+            <div class="newcomer-content">
+                <div class="newcomer-emoji">👨‍👩‍👧‍👦</div>
+                <h2>처음 오셨나요?</h2>
+                <p>예배와 모임은 누구에게나 열려 있습니다.<br>새가족이 되어 더 따뜻한 목회를 경험하세요!</p>
+                <div class="newcomer-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <p>방문</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <p>새가족<br>등록</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <p>교육<br>(4주)</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <p>공동체<br>배정</p>
+                    </div>
+                </div>
+                <a href="#register" class="btn btn-primary">새가족 등록</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SNS 채널 -->
+    <section class="sns-section">
+        <div class="container">
+            <h2 class="section-title">늘사랑교회 SNS 채널</h2>
+            <div class="sns-grid">
+                <a href="#" class="sns-item">
+                    <div class="sns-icon">📺</div>
+                    <span>유튜브</span>
+                </a>
+                <a href="#" class="sns-item">
+                    <div class="sns-icon">📷</div>
+                    <span>인스타그램</span>
+                </a>
+                <a href="#" class="sns-item">
+                    <div class="sns-icon">💬</div>
+                    <span>카카오톡</span>
+                </a>
+                <a href="#" class="sns-item">
+                    <div class="sns-icon">📘</div>
+                    <span>페이스북</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>늘사랑교회</h3>
+                    <p>경기도 고양시 일산서구 송포로 113번길 63-28 (대화동)</p>
+                    <p>TEL. 031-812-6633 | FAX. 031-812-6634</p>
+                    <p>대한예수교 장로회</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#privacy">개인정보처리방침</a>
+                    <a href="#terms">이용약관</a>
+                    <a href="#email">이메일무단수집거부</a>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2026 늘사랑교회. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- TOP 버튼 -->
+    <button class="top-btn" aria-label="맨 위로">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
